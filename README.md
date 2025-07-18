@@ -66,8 +66,8 @@ A modern and user-friendly frontend with:
 
 6. Start the API Server
   
-   uvicorn api.main:app --reload
+   uvicorn api:app --reload
 
 5. Launch the Streamlit Dashboard
   
-   streamlit run frontend/dashboard.py
+   streamlit run dashboard.py
